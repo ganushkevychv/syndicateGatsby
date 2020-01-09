@@ -4,16 +4,15 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Syndicate</h1>
+    <h1><span className="character">S</span>yndicate Trade</h1>
     <p>Building Business Relationships</p>
     
-    <div style={{ maxWidth: `100vh`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
+    
     <Link to="/page-2/">Go to page 2</Link>
   </Layout>
 )
