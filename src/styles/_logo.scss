@@ -1,0 +1,27 @@
+//index.js
+body{
+    background: url("../images/logo1920.jpg") no-repeat center center fixed;
+}
+.header-title {
+    font-size: 70px;
+    margin-bottom: 10px;
+    text-align: left;
+    color: rgb(43, 17, 3);
+    margin-top: 100px;
+    text-align: center;
+}
+.character{
+    font-size: 100px;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color:red;
+    color: white;
+    margin-top: 100px;
+    border-radius: 10px;
+    text-align: center;
+}
+.header-slogan{
+text-align: center;
+color: red;   
+font-size: 30px;
+}
