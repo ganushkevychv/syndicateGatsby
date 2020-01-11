@@ -29,7 +29,7 @@ const Layout = ({ children }) => {
           paddingTop: 0,
         }}
       >
-        <main>{children}</main>
+        <main className="site-content">{children}</main>
         
         <Footer />
       </div>

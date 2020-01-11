@@ -1,8 +1,16 @@
 .site-footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
     background-color: transparent;
     margin-top: 20px;
     padding: 10px;
     text-align: center;
     color: white;
-    }
-  
+    font-size:21px;
+}
+h4{
+    font-size: 21px;
+    line-height: 1.4;
+}
