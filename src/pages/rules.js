@@ -14,7 +14,16 @@ const contactsPage = () => (
     <Accordion>
   <Card>
     <Card.Header>
-      <Accordion.Toggle as={Button} variant="link" eventKey="0">
+      <Accordion.Toggle
+       className="link-btn"
+        as={Button}
+         style={{
+           color:"black",
+           textDecoration:"none"
+           }} 
+           variant="link" 
+           eventKey="0"
+           >
         Правило 1
       </Accordion.Toggle>
     </Card.Header>
@@ -24,7 +33,16 @@ const contactsPage = () => (
   </Card>
   <Card>
     <Card.Header>
-      <Accordion.Toggle as={Button} variant="link" eventKey="1">
+      <Accordion.Toggle 
+      className="link-btn" 
+      as={Button} 
+      style={{
+        color:"black",
+        textDecoration:"none"
+      }} 
+      variant="link" 
+      eventKey="1"
+      >
       Правило 2
       </Accordion.Toggle>
     </Card.Header>
