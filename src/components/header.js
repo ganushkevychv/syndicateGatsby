@@ -40,7 +40,7 @@ class Header extends React.Component{
                 <NavLink href="/contacts">Контакты</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/about">Правила</NavLink>
+                <NavLink href="/rules">Правила</NavLink>
               </NavItem>
             </Nav>
           </Collapse>   
