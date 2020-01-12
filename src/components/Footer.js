@@ -6,7 +6,7 @@ return(
     <div className="site-footer">
     <h4 className="text-center">All rights reserved© {new Date().getFullYear()}, Created by
           {` `}
-          <a href="https://vigilant-sinoussi-5916a5.netlify.com/"><img src={Logo} width="30" 
+          <a href="https://vladyslav-ganushkevych.netlify.com/"><img src={Logo} width="30" 
   height="30" alt="logo"/></a></h4>
     
    
