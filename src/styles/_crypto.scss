@@ -1,0 +1,16 @@
+.container-widget,
+.card {
+  align-items: center;
+  background-color: none;
+  border: none;
+  padding: 50px;
+}
+html,
+body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+}
+.card-body{
+    padding: 10px;
+}
