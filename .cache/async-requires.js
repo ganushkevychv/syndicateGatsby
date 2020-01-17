@@ -7,6 +7,7 @@ exports.components = {
   "component---src-pages-about-js": () => import("../src/pages/about.js" /* webpackChunkName: "component---src-pages-about-js" */),
   "component---src-pages-contacts-js": () => import("../src/pages/contacts.js" /* webpackChunkName: "component---src-pages-contacts-js" */),
   "component---src-pages-index-js": () => import("../src/pages/index.js" /* webpackChunkName: "component---src-pages-index-js" */),
-  "component---src-pages-rules-js": () => import("../src/pages/rules.js" /* webpackChunkName: "component---src-pages-rules-js" */)
+  "component---src-pages-rules-js": () => import("../src/pages/rules.js" /* webpackChunkName: "component---src-pages-rules-js" */),
+  "component---src-pages-crypto-js": () => import("../src/pages/crypto.js" /* webpackChunkName: "component---src-pages-crypto-js" */)
 }
 

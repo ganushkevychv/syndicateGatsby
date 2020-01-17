@@ -42,6 +42,9 @@ class Header extends React.Component{
               <NavItem>
                 <NavLink href="/rules">Правила</NavLink>
               </NavItem>
+              <NavItem>
+                <NavLink href="/crypto">Курс криптовалюты</NavLink>
+              </NavItem>
             </Nav>
           </Collapse>   
         </div>
